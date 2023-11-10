@@ -9,12 +9,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "2",
         "id": 206,
         "name": "Wolves"
       },
       "away": {
-        "score": "?",
+        "score": "2",
         "id": 608,
         "name": "Spurs"
       }
@@ -30,12 +30,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "2",
         "id": 413,
         "name": "Arsenal"
       },
       "away": {
-        "score": "?",
+        "score": "0",
         "id": 160,
         "name": "Burnley"
       }
@@ -51,12 +51,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "0",
         "id": 234,
         "name": "Crystal Palace"
       },
       "away": {
-        "score": "?",
+        "score": "0",
         "id": 229,
         "name": "Everton"
       }
@@ -72,12 +72,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "3",
         "id": 210,
         "name": "Man Utd"
       },
       "away": {
-        "score": "?",
+        "score": "1",
         "id": 226,
         "name": "Luton Town"
       }
@@ -93,12 +93,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "0",
         "id": 333,
         "name": "Bournemouth"
       },
       "away": {
-        "score": "?",
+        "score": "3",
         "id": 409,
         "name": "Newcastle"
       }
@@ -114,12 +114,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "2",
         "id": 238,
         "name": "Aston Villa"
       },
       "away": {
-        "score": "?",
+        "score": "0",
         "id": 407,
         "name": "Fulham"
       }
@@ -135,12 +135,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "2",
         "id": 212,
         "name": "Brighton"
       },
       "away": {
-        "score": "?",
+        "score": "0",
         "id": 444,
         "name": "Sheff Utd"
       }
@@ -156,12 +156,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "3",
         "id": 155,
         "name": "Liverpool"
       },
       "away": {
-        "score": "?",
+        "score": "0",
         "id": 194,
         "name": "Brentford"
       }
@@ -177,12 +177,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "1",
         "id": 367,
         "name": "West Ham"
       },
       "away": {
-        "score": "?",
+        "score": "0",
         "id": 522,
         "name": "N Forest"
       }
@@ -198,12 +198,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "0",
         "id": 524,
         "name": "Chelsea"
       },
       "away": {
-        "score": "?",
+        "score": "3",
         "id": 345,
         "name": "Man City"
       }
