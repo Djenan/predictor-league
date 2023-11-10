@@ -1,0 +1,50 @@
+{
+  "sdc-site-match-header": {
+    "shortStatus": {
+      "postponed": "P",
+      "abandoned": "A",
+      "cancelled": "C",
+      "aet": "AET",
+      "ft": "FT",
+      "et": "ET",
+      "ht": "HT",
+      "live": "LIVE"
+    },
+    "longStatus": {
+      "postponed": "Postponed",
+      "abandoned": "Abandoned",
+      "cancelled": "Cancelled",
+      "aet": "After Extra Time",
+      "ft": "Full Time",
+      "et": "Extra Time",
+      "ht": "Half Time",
+      "live": "This is a live match."
+    },
+    "agg": "Agg",
+    "attendance": "Att",
+    "attendanceVerbose": "Attendance",
+    "vs": "vs",
+    "live-on": "",
+    "synopsis": {
+      "goal": "goal",
+      "penalty": "pen",
+      "ownGoal": "og",
+      "ownGoalVerbose": "own goal",
+      "redCard": "red card",
+      "sentOff": "sent off"
+    },
+    "livestream": {
+      "buttonText": "Watch Live"
+    },
+    "highlights": {
+      "watchMoreText": "Watch match highlights"
+    },
+    "betting": {
+      "home": "Home",
+      "draw": "Draw",
+      "away": "Away",
+      "latest" : "Latest",
+      "odds" : "Odds"
+    }
+  }
+}

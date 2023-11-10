@@ -1,0 +1,44 @@
+<div class="item-wrap">
+  <div class="sdc-site-match-header" data-component-name="sdc-site-match-header" {{#if skin.name}}data-skin="{{skin.name}}" {{/if}} data-status="4" data-sport="football"
+    style="--text-color: {{theme.textColor}}; --theme-color: {{theme.themeColor}}; --theme-color-mid: {{theme.themeColorMid}}; --theme-color-dark: {{theme.themeColorDark}};"
+  >
+    <div class="sdc-site-match-header__wrapper">
+      <div class="sdc-site-match-header__body">
+
+        {{#if startDate}}
+        <div class="sdc-site-match-header__status sdc-site-match-header__status--short">
+          <span class="sdc-site-match-header__match-status--ft">{{startDate}}</span>
+        </div>
+        {{/if}}
+
+        <div class="sdc-site-match-header__content">
+          <div class="sdc-site-match-header__content-inner">
+            <div class="sdc-site-match-header__teams">
+
+              {{#each teams}}
+              <h4 class="sdc-site-match-header__team">
+
+                <span class="sdc-site-match-header__team-badge sdc-site-match-header__team-badge--{{@key}}">
+                  <img loading="lazy" intrinsicsize="48x48" src="http://e0.365dm.com/football/badges/96/{{id}}.png" alt="" class="sdc-site-match-header__team-badge-image" aria-hidden="true">
+                </span>
+
+                
+                <span class="sdc-site-match-header__team-name">
+                  <span class="sdc-site-match-header__team-name-block">
+                    <span class="sdc-site-match-header__team-name-block-target">{{name}}</span>
+                  </span>
+                </span>
+
+                <span class="sdc-site-match-header__team-score">
+                  <span class="sdc-site-match-header__team-score-block">{{score}}</span>
+                </span>
+
+              </h4>
+              {{/each}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

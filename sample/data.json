@@ -1,0 +1,222 @@
+{
+  "venue": {
+    "name": "Villa Park"
+  },
+  "attendance": 3000,
+  "imageServerUrl": " http://e2.365dm.com",
+  "id": 384248,
+  "status": 1,
+  "pollUrl": null,
+  "start": {
+    "time": "17:00",
+    "date": "Saturday 17th November"
+  },
+  "tvListing": {
+    "channel": "Sky Sports 1",
+    "logo": "http://www.skysports.com/core/img/channels/Sky-Sports-1-Logo.svg",
+    "time": "16:45"
+  },
+  "links": [
+    {
+      "label": "Jetzt Sky bestellen",
+      "link": "http://sky.de/jetzt-sky-bestellen",
+      "external": true
+    },
+    {
+      "label": "Jetzt Tagesticket holen",
+      "link": "http://sky.de/jetzt-tagesticket-holen",
+      "external": true
+    }
+  ],
+  "competition": {
+    "id": 120,
+    "importance": 1,
+    "code": "CL",
+    "name": {
+      "full": "UEFA Champions League Gruppe B",
+      "short": "UEFA Champions League Gruppe B"
+    },
+    "round": {
+      "importance": 1,
+      "name": {
+        "full": "Semi-final",
+        "short": "Semi-final"
+      }
+    }
+  },
+  "teams": {
+    "home": {
+      "url": "/bayern-munich/",
+      "score": {
+        "current": 3,
+        "half_time": null,
+        "aggregate": ""
+      },
+      "badge": "http://e0.365dm.com/football/badges/96/530.png",
+      "id": 530,
+      "name": {
+        "full": "Bayern Munich",
+        "short": "Bayern"
+      },
+      "synopsis": [
+        {
+          "player":"R Lewandowski",
+          "events":[
+            {
+              "time":"12'",
+              "formatted_time":"12th minute",
+              "eventId":2,
+              "eventType":"penalty",
+              "goal": true
+            }
+          ]
+        },
+        {
+          "player":"Thiago",
+          "events":[
+            {
+              "time":"65'",
+              "formatted_time":"65th minute",
+              "eventId":1,
+              "eventType":"goal",
+              "goal": true
+            }
+          ]
+        },
+        {
+          "player":"J Kimmich",
+          "events":[
+            {
+              "time":"90'",
+              "formatted_time":"90th minute",
+              "eventId":1,
+              "eventType":"goal",
+              "goal": true
+            }
+          ]
+        }
+      ]
+    },
+    "away": {
+      "url": "/anderlecht/",
+      "score": {
+        "current": 0,
+        "half_time": null,
+        "aggregate": null
+      },
+      "badge": "http://e0.365dm.com/football/badges/96/617.png",
+      "id": 617,
+      "name": {
+        "full": "Anderlecht",
+        "short": "Anderlecht"
+      },
+      "synopsis": {
+        "player":"S Kums",
+        "events":[
+          {
+            "time":"11'",
+            "formatted_time":"11th minute",
+            "eventId":5,
+            "eventType":"red-card",
+            "redCard": true
+          }
+        ]
+      }
+    }
+  },
+  "summary": null,
+  "skin": {
+    "name": "championsleague",
+    "backgroundImage": {
+      "src": "/18/06/{width}x{height}/skysports-champions-league_4336185.jpg"
+    }
+  },
+  "modals": [
+    {
+      "id": 1,
+      "role": "Sky Sport",
+      "modalLayout": {
+        "sections": [
+          {
+            "heading": "Mit Sky Go schauen",
+            "buttons": [
+              {
+                "label": "Hier geht's zu Sky Go",
+                "link": "https://www.skygo.sky.de/sport/live-planer/champions-league/liveplanner/sportsection/121.html",
+                "iosStoreLink": "https://itunes.apple.com/de/app/sky-go/id375667763?ls=1&mt=8",
+                "androidStoreLink": "https://play.google.com/store/apps/details?id=de.sky.bw",
+                "appLink": "skygo://onnow/%s"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "role": "invalidPackage",
+      "modalLayout": {
+        "sections": [
+          {
+            "heading": "Du brauchst ein zusätzliches Paket, um weiterzuschauen",
+            "subHeading": "Buch ein Paket dazu, um noch mehr Sky Sport Kanäle zu sehen. Wann du willst, wo du willst. Mit Sky Go.",
+            "buttons": [
+              {
+                "label": "Hier geht’s zu deinem Paket",
+                "link": "https://www.skygo.sky.de/sport/live-planer/champions-league/liveplanner/sportsection/121.html",
+                "iosStoreLink": "https://itunes.apple.com/de/app/sky-go/id375667763?ls=1&mt=8",
+                "androidStoreLink": "https://play.google.com/store/apps/details?id=de.sky.bw",
+                "appLink": "skygo://onnow/%s"
+              }
+            ]
+          },
+          {
+            "heading": "Du willst kein weiteres Paket? Dann streame das Spiel mit Sky Ticket",
+            "subHeading": "Damit kannst du Spiele jetzt auch ohne Sky Abo sehen. Hol dir jetzt dein Ticket.",
+            "buttons": [
+              {
+                "label": "Live streamen",
+                "link": "https://skyticket.sky.de"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "role": "unauthenticated",
+      "modalLayout": {
+        "sections": [
+          {
+            "heading": "Mit Sky Go schauen",
+            "subHeading": "Wenn du das Sky Sport gebucht hast, kannst du das Spiel mit Sky Go anschauen.",
+            "buttons": [
+              {
+                "label": "Hier geht's zu Sky Go",
+                "link": "https://www.skygo.sky.de/sport/live-planer/champions-league/liveplanner/sportsection/121.html",
+                "iosStoreLink": "https://itunes.apple.com/de/app/sky-go/id375667763?ls=1&mt=8",
+                "androidStoreLink": "https://play.google.com/store/apps/details?id=de.sky.bw",
+                "appLink": "skygo://onnow/%s"
+              },
+              {
+                "label": "Noch kein Sky Kunde? Hol dir Sky Sport",
+                "link": "https://www.sky.de/bestellung/aktuelle-angebote-2629?wkz=WHPS18"
+              }
+            ]
+          },
+          {
+            "heading": "Mit Sky Ticket live streamen",
+            "subHeading": "Du bist kein Sky Kunde? Mit Sky Ticket kannst du das Spiel auch ohne Abo sehen.",
+            "buttons": [
+              {
+                "label": "Live streamen",
+                "link": "https://skyticket.sky.de"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+/* SKIN */
+/* Default styling paramters for this component that can be overwritten at project level */
+/* ========= */
+
+// colours
+$the-red-button-red: #ea021a;
+
+// sizes
+$sdc-site-match-header-max-width: 776px !default;
+$sdc-site-match-header-max-width-expanded: 1024px !default;
+$sdc-site-match-header-padding: calc(1em + 1%) !default;
+
+// breakpoints
+$sdc-site-match-header-breakpoint-small: 400px !default;
+$sdc-site-match-header-breakpoint-medium: 480px !default;
+$sdc-site-match-header-breakpoint-large: 600px !default;
+
+
+// @import "_themes.scss";
+// default
+$sdc-site-match-header-color: $monoceros !default;
+$sdc-site-match-header-background: linear-gradient(to bottom, #101050 0%, #15156a 100%) !default;
+$sdc-site-match-header-body-background: rgba(0, 0, 0, 0.20) !default;
+$sdc-site-match-header-background-color: #15156a !default;
+$sdc-site-match-header-icon-red-background: red !default;
+
+// live color
+$sdc-site-match-header-live-background: #d0021b !default;
+$sdc-site-match-header-in-progress-background: #fff !default;
+$sdc-site-match-header-live-color: white !default;
+$sdc-site-match-header-result-border-color: 1px solid rgba(0, 0, 0, 0.2) !default;
+
+// finished color
+$sdc-site-match-header-result-background: white !default;
+$sdc-site-match-header-result-color: #222 !default;
+
+// goal flash colors
+$sdc-site-match-header-goalflash-background: #ffcc00 !important;
+$sdc-site-match-header-goalflash-color: black !default;
+
+// .sdc-site-match-header:not([data-skin]) {
+//   color: $sdc-site-match-header-color;
+//   background-image: $sdc-site-match-header-background;
+//   background-color: $sdc-site-match-header-background-color;
+// }
+
+// .sdc-site-match-header:not([data-skin]) .sdc-site-match-header__body {
+//   @extend %glints-box !optional;
+//   background-color: $sdc-site-match-header-body-background;
+// }
+
+// premier league
+// ===============
+
+$sdc-site-match-header-color-premierleague: #f4f5f7 !default;
+$sdc-site-match-header-background-premierleague: linear-gradient(253deg, #01096c, #111874 16%, #0c1c86 39%, #011773 67%, #01022d, #040747) !default;
+$sdc-site-match-header-background-color-premierleague: null !default;
+$sdc-site-match-header-body-background-premierleague: linear-gradient(to bottom, #030c7e, #0f1151) !default;
+
+
+
+
+.item-wrap .sdc-site-match-header {
+  background-size: cover;
+}
+
+.item-wrap .sdc-site-match-header .sdc-site-match-header__body {
+  @extend .glints-wings !optional;
+}
+
+
+.item-wrap .sdc-site-match-header {
+    --body-background: linear-gradient(226deg, var(--theme-color), var(--theme-color-dark));
+    --foreground-background: linear-gradient(to bottom, var(--theme-color), var(--theme-color-mid));
+    --background-color: null;
+    
+    color: var(--text-color);
+    background-image: var(--body-background);
+    background-color: var(--background-color);
+  }
+  
+.item-wrap .sdc-site-match-header .sdc-site-match-header__body {
+    background-image: var(--foreground-background);
+}
+
+
+// @import "_component.scss";
+/* COMPONENT */
+
+/* The main structural styles to create a vanilla version of this component */
+
+/* ========= */
+
+$sdc-site-match-header-badge-width: 60px;
+
+.item-wrap {
+  container-type: inline-size;
+}
+
+
+.sdc-site-match-header {
+  background-image: $sdc-site-match-header-background;
+  background-color: $sdc-site-match-header-background-color;
+  background-size: cover;
+  background-position: center;
+  font-size: 0.95em;
+  padding: $sdc-site-match-header-padding 0;
+  color: $sdc-site-match-header-color;
+}
+
+.sdc-site-match-header__wrapper {
+  overflow: hidden;
+}
+
+.sdc-site-match-header__body {
+  max-width: $sdc-site-match-header-max-width;
+  background-color: $sdc-site-match-header-body-background;
+  margin: 0 auto;
+  padding: 0 $sdc-site-match-header-padding $sdc-site-match-header-padding;
+
+//   @media all and (min-width: 350px) {
+//     padding: 0 1.5em 1.5em;
+//   }
+}
+
+// z-index change was initially added with HolaSpark which caused content to move around, the z-index needs to be
+// higher than the second local-nav, but lower than the first local-nav
+.sdc-site-match-header__content {
+  z-index: $z-index-top - 3;
+  position: relative;
+}
+
+.sdc-site-match-header__content-inner {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+#container,
+br {
+    display: none;
+}
+
+// teams block
+.sdc-site-match-header__teams {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: $sdc-site-match-header-badge-width + 3px;
+}
+
+// individual team row
+.sdc-site-match-header__team {
+  display: flex;
+  width: 100%;
+}
+
+.sdc-site-match-header__team-name[class] {
+  flex: none;
+  width: calc(100% - 3.1em);
+  margin-right: 0.3em;
+  overflow: hidden;
+  position: relative;
+}
+
+.sdc-site-match-header__team ~ .sdc-site-match-header__team {
+  margin-top: 1em;
+}
+
+.sdc-site-match-header__team > span {
+  vertical-align: middle;
+  line-height: 1;
+}
+
+// team name
+.sdc-site-match-header__team-name-block {
+  font-size: 2em;
+  display: inline-block;
+  padding: 0.15em 0 0.2em 0;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  font-family: "Sky Premier League", sans-serif;
+  font-weight: normal;
+}
+
+// team badge
+.sdc-site-match-header__team-badge {
+  width: $sdc-site-match-header-badge-width;
+  vertical-align: top !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sdc-site-match-header__team:nth-of-type(2) .sdc-site-match-header__team-badge {
+  transform: translateX(102%);
+}
+
+.sdc-site-match-header__team-badge-image {
+  width: $sdc-site-match-header-badge-width - 12;
+  height: $sdc-site-match-header-badge-width - 12;
+  max-width: $sdc-site-match-header-badge-width - 12;
+}
+
+
+// team score
+.sdc-site-match-header__team-score {
+  width: 1.6em;
+}
+
+.sdc-site-match-header__team-score-block {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 1.4em;
+  height: 1.3em;
+  font-size: 2em;
+  background-color: $sdc-site-match-header-in-progress-background;
+  color: $sdc-site-match-header-live-color;
+}
+
+// set up an absolutely position after content block to overlay postponed, canelled and abandonded matches
+.sdc-site-match-header__team-score-block:after {
+  position: absolute;
+  padding: 1px;
+  background-color: $sdc-site-match-header-in-progress-background;
+  color: inherit;
+  left: 50%;
+  top: 50%;
+  margin-left: -20%;
+  margin-top: -35%;
+}
+
+.sdc-site-match-header__details {
+  padding: 1.25em 0 0.25em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  &:empty {
+    display: none;
+  }
+}
+
+
+// finished matches
+.sdc-site-match-header {
+    background-color: red;
+    height: 100%;
+
+  .sdc-site-match-header__team-score-block {
+    background-color: $sdc-site-match-header-result-background;
+    color: $sdc-site-match-header-result-color;
+    border: $sdc-site-match-header-result-border-color;
+    animation: none !important;
+
+    &:after {
+      background-color: $sdc-site-match-header-result-background;
+    }
+  }
+}
+// match status
+.sdc-site-match-header__status {
+    text-align: center;
+    font-size: 1.05em;
+    font-weight: bold;
+  }
+  
+  .sdc-site-match-header__match-status--ft {
+    font-size: 0.75em;
+    padding: 0.3em 0.6em;
+    margin-bottom: -0.5em;
+    display: inline-block;
+    background-color: $sdc-site-match-header-result-background;
+    color: $sdc-site-match-header-result-color;
+    display: inline-block;
+  }
+
+
+// MQs
+@container (min-width: 350px) {
+    .sdc-site-match-header__body {
+        padding: 0 1.5em 1.5em;
+    }
+}
+
+@container (max-width: 940px) {
+
+    .sdc-site-match-header__team {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+  
+@container (min-width: 600px) {
+  
+    .sdc-site-match-header {
+      background-size: 150%;
+    }
+  
+    // scale entire component down by 10%
+    .sdc-site-match-header {
+      font-size: 0.9em;
+    }
+  
+    .sdc-site-match-header__team {
+      font-size: 0.87em;
+    }
+  
+    // scale all normal text to 16px
+    .sdc-site-match-header__detail {
+      font-size: 15px;
+    }
+}
+  
+@container (max-width: 480px) {
+    
+    .sdc-site-match-header__team {
+      position: static;
+    }
+  
+    .sdc-site-match-header__team-name {
+      position: relative;
+    }
+  
+    .sdc-site-match-header__detail {
+      padding: 1.5em 0;
+    }
+}
+  
+@container (max-width: 400px) {
+  
+    .sdc-site-match-header {
+      font-size: 0.87em;
+    }
+  
+    .sdc-site-match-header__team-name-block {
+      font-size: 1.8em;
+    }
+}

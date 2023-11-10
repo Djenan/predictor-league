@@ -1,0 +1,50 @@
+{
+  "sdc-site-match-header": {
+    "shortStatus": {
+      "postponed": "X",
+      "abandoned": "X",
+      "cancelled": "X",
+      "aet": "n.V.",
+      "ft": "SPIELENDE",
+      "et": "Verl.",
+      "ht": "HZ",
+      "live": "LIVE"
+    },
+    "longStatus": {
+      "postponed": "X",
+      "abandoned": "X",
+      "cancelled": "X",
+      "aet": "n.V.",
+      "ft": "SPIELENDE",
+      "et": "Verl.",
+      "ht": "HZ",
+      "live": "LIVE"
+    },
+    "agg": "Gesamtergebnis",
+    "attendance": "Att",
+    "attendanceVerbose": "Att",
+    "vs": "-",
+    "live-on": "Live auf",
+    "synopsis": {
+      "goal": "goal",
+      "penalty": "11m",
+      "ownGoal": "ET",
+      "ownGoalVerbose": "ET",
+      "redCard": "s/o",
+      "sentOff": "s/o"
+    },
+    "livestream": {
+      "buttonText": "Hier geht's zum Livestream"
+    },
+    "highlights": {
+      "watchMoreText": "Hier gibt's die Highlights im Video"
+    },
+    "betting": {
+      "home": "Home",
+      "draw": "Draw",
+      "away": "Away",
+      "all": "",
+      "odds": ""
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "sdc-site-match-header",
+  "author": "Sky UK",
+  "version": "4.1.0",
+  "stability": "stable",
+  "main": "src/components/sdc-site-match-header.js",
+  "scripts": {
+    "test": "docker run -p 9876:9876  -it --rm -v $(pwd):/usr/src/app registry.fluidcloud.bskyb.com/digital-platforms/sdc/toolbelt:latest sh -c \"toolbelt test\"",
+    "lint": "docker run -p 9876:9876  -it --rm -v $(pwd):/usr/src/app registry.fluidcloud.bskyb.com/digital-platforms/sdc/toolbelt:latest sh -c \"toolbelt lint\"",
+    "preview": "docker run -p 9876:9876  -it --rm -v $(pwd):/usr/src/app registry.fluidcloud.bskyb.com/digital-platforms/sdc/toolbelt:latest sh -c \"toolbelt preview --multiple\""
+  },
+  "license": "BSD-2-Clause",
+  "toolbelt": {
+    "type": "handlebars",
+    "preview": "src/preview.js",
+    "index": "src/index.js",
+    "handlebars": {
+      "data": "sample/data.json",
+      "multiple": "sample/multiple.json",
+      "helpers": "src/helpers.js",
+      "template": "template.hbs"
+    },
+    "css": {
+      "main": "styles/components/sdc-site-match-header.scss"
+    }
+  },
+  "devDependencies": {
+    "sdc-project-base-static": "v15.1.0-SGA-2597.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git.bskyb.com/sky-components/blackjack-sdc-site-match-header"
+  },
+  "homepage": "https://git.bskyb.com/sky-components/blackjack-sdc-site-match-header#readme"
+}
