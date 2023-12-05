@@ -56,7 +56,7 @@
         "name": "Brighton"
       },
       "away": {
-        "score": "0",
+        "score": "1",
         "id": 194,
         "name": "Brentford"
       }
@@ -72,12 +72,12 @@
     },
     "teams": {
       "home": {
-        "score": "1",
+        "score": "2",
         "id": 234,
         "name": "Crystal Palace"
       },
       "away": {
-        "score": "0",
+        "score": "1",
         "id": 333,
         "name": "Bournemouth"
       }
@@ -93,12 +93,12 @@
     },
     "teams": {
       "home": {
-        "score": "1",
+        "score": "2",
         "id": 407,
         "name": "Fulham"
       },
       "away": {
-        "score": "0",
+        "score": "1",
         "id": 522,
         "name": "N Forest"
       }
@@ -119,7 +119,7 @@
         "name": "Sheff Utd"
       },
       "away": {
-        "score": "3",
+        "score": "4",
         "id": 155,
         "name": "Liverpool"
       }
@@ -140,7 +140,7 @@
         "name": "Aston Villa"
       },
       "away": {
-        "score": "3",
+        "score": "2",
         "id": 345,
         "name": "Man City"
       }
