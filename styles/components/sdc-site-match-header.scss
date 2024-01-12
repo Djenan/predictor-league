@@ -58,7 +58,9 @@ $sdc-site-match-header-background-color-premierleague: null !default;
 $sdc-site-match-header-body-background-premierleague: linear-gradient(to bottom, #030c7e, #0f1151) !default;
 
 
-
+.sdc-site-match-header[data-disabled] {
+  filter: saturate(0.1) brightness(0.15) blur(3px);
+}
 
 .item-wrap .sdc-site-match-header {
   background-size: cover;
