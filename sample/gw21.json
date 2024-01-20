@@ -111,7 +111,7 @@
   },
   {
     "startDate": "Sat 20th Jan",
-    "disabled": true,
+    "disabled": false,
     "theme": {
       "textColor": "#f4f5f7",
       "themeColor": "#DB0007",
@@ -120,12 +120,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "2",
         "id": 413,
         "name": "Arsenal"
       },
       "away": {
-        "score": "?",
+        "score": "0",
         "id": 234,
         "name": "Crystal Palace"
       }
@@ -133,7 +133,6 @@
   },
   {
     "startDate": "Sat 20th Jan",
-    "disabled": true,
     "theme": {
       "textColor": "#f4f5f7",
       "themeColor": "#D20000",
@@ -142,12 +141,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "2",
         "id": 194,
         "name": "Brentford"
       },
       "away": {
-        "score": "?",
+        "score": "1",
         "id": 522,
         "name": "N Forest"
       }
@@ -155,7 +154,6 @@
   },
   {
     "startDate": "Sun 21st Jan",
-    "disabled": true,
     "theme": {
       "textColor": "#fff",
       "themeColor": "#EE2737",
@@ -164,12 +162,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "0",
         "id": 444,
         "name": "Sheff Utd"
       },
       "away": {
-        "score": "?",
+        "score": "1",
         "id": 367,
         "name": "West Ham"
       }
@@ -177,7 +175,6 @@
   },
   {
     "startDate": "Sun 21st Jan",
-    "disabled": true,
     "theme": {
       "textColor": "#f4f5f7",
       "themeColor": "#B50E12",
@@ -186,12 +183,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "1",
         "id": 333,
         "name": "Bournemouth"
       },
       "away": {
-        "score": "?",
+        "score": "2",
         "id": 155,
         "name": "Liverpool"
       }
@@ -199,7 +196,6 @@
   },
   {
     "startDate": "Mon 22nd Jan",
-    "disabled": true,
     "theme": {
       "textColor": "#FFCD00",
       "themeColor": "#0057B8",
@@ -208,12 +204,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "3",
         "id": 212,
         "name": "Brighton"
       },
       "away": {
-        "score": "?",
+        "score": "1",
         "id": 206,
         "name": "Wolves"
       }
