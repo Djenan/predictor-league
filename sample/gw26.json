@@ -1,7 +1,7 @@
 [
   {
     "startDate": "Fri 23rd Feb",
-    "disabled": false,
+    "disabled": true,
     "theme": {
       "textColor": "#f4f5f7",
       "themeColor": "#034694",
@@ -10,12 +10,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "P",
         "id": 524,
         "name": "Chelsea"
       },
       "away": {
-        "score": "?",
+        "score": "P",
         "id": 608,
         "name": "Spurs"
       }
@@ -32,12 +32,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "2",
         "id": 238,
         "name": "Aston Villa"
       },
       "away": {
-        "score": "?",
+        "score": "1",
         "id": 522,
         "name": "N Forest"
       }
@@ -54,12 +54,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "2",
         "id": 212,
         "name": "Brighton"
       },
       "away": {
-        "score": "?",
+        "score": "1",
         "id": 229,
         "name": "Everton"
       }
@@ -76,12 +76,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "1",
         "id": 234,
         "name": "Crystal Palace"
       },
       "away": {
-        "score": "?",
+        "score": "0",
         "id": 160,
         "name": "Burnley"
       }
@@ -89,7 +89,7 @@
   },
   {
     "startDate": "Sat 24th Feb",
-    "disabled": false,
+    "disabled": true,
     "theme": {
       "textColor": "#F6EB61",
       "themeColor": "#C8102E",
@@ -98,12 +98,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "P",
         "id": 155,
         "name": "Liverpool"
       },
       "away": {
-        "score": "?",
+        "score": "P",
         "id": 226,
         "name": "Luton Town"
       }
@@ -120,12 +120,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "2",
         "id": 210,
         "name": "Man Utd"
       },
       "away": {
-        "score": "?",
+        "score": "1",
         "id": 407,
         "name": "Fulham"
       }
@@ -142,12 +142,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "1",
         "id": 333,
         "name": "Bournemouth"
       },
       "away": {
-        "score": "?",
+        "score": "3",
         "id": 345,
         "name": "Man City"
       }
@@ -164,12 +164,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "2",
         "id": 413,
         "name": "Arsenal"
       },
       "away": {
-        "score": "?",
+        "score": "0",
         "id": 409,
         "name": "Newcastle"
       }
@@ -186,12 +186,12 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "1",
         "id": 206,
         "name": "Wolves"
       },
       "away": {
-        "score": "?",
+        "score": "0",
         "id": 444,
         "name": "Sheff Utd"
       }
@@ -208,26 +208,14 @@
     },
     "teams": {
       "home": {
-        "score": "?",
+        "score": "1",
         "id": 367,
         "name": "West Ham"
       },
       "away": {
-        "score": "?",
+        "score": "0",
         "id": 194,
         "name": "Brentford"
-      }
-    }
-  },
-  {
-    "startDate": "",
-    "disabled": false,
-    "theme": {
-    },
-    "teams": {
-      "home": {
-      },
-      "away": {
       }
     }
   }
